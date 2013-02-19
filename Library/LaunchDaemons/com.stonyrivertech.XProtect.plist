@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.rummel.XProtect</string>
+	<string>com.stonyrivertech.XProtect</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/backProtect.sh</string>
