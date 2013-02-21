@@ -21,8 +21,8 @@ declare -x SCRIPTNAME="${0##*/}"
 
 logtag="${0##*/}"
 debug_log="disabled"
-logDate=`date +"Y.m.d"`
-logDateTime=`date +"Y-m-d_H.M.S"`
+logDate=`date +"%Y-%m-%d"`
+logDateTime=`date +"%Y-%m-%d_%H.%M.%S"`
 log_dir="/Library/Logs/${logtag}"
 LogFile="${logtag}-${logDate}.log"
 
