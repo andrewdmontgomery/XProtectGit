@@ -5,10 +5,10 @@ This a tool to copy the XProtect.plist file whenever it changes via LaunchDaemon
 
 Copy the files as needed:
 
-*	/usr/local/bin/backProtect.sh
+*	/usr/local/bin/watchProtect.sh
 *	/Library/LaunchDaemons/com.stonyrivertech.XProtect.plist
 
-Be sure to chmod +x /usr/local/bin/backProtect.sh so it's an executable script and that the plist permisions are ```rw-r--r--  1 root  wheel```
+Be sure to chmod +x /usr/local/bin/watchProtect.sh so it's an executable script and that the plist permisions are ```rw-r--r--  1 root  wheel```
 
 Once the files are copied to your computer in the correct locations you can load the LaunchDaemon via:
 

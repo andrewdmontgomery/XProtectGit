@@ -6,7 +6,7 @@
 	<string>com.stonyrivertech.XProtect</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/backProtect.sh</string>
+		<string>/usr/local/bin/watchProtect.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
