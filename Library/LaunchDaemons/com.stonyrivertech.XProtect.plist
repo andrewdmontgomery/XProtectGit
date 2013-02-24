@@ -13,6 +13,7 @@
 	<key>WatchPaths</key>
 	<array>
 		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.plist</string>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.meta.plist</string>
 	</array>
 </dict>
 </plist>

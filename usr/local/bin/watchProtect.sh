@@ -31,6 +31,7 @@ sourceDir="/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/"
 destineDir="/Users/Shared/XProtect/"
 XPath=".version/"
 file="XProtect.plist"
+metaFile="XProtect.meta.plist"
 version=`/usr/libexec/PlistBuddy -c "print :Version" /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.meta.plist`
 
 [ ! -d "${destineDir}" ] && { mkdir "${destineDir}"; }
@@ -38,4 +39,5 @@ version=`/usr/libexec/PlistBuddy -c "print :Version" /System/Library/CoreService
 [ ! -e "${destineDir}${XPath}${version}" ] && {
 	touch "${destineDir}${XPath}${version}"
 	cp "${sourceDir}${file}" "${destineDir}${logDateTime}-${file}"
+	cp "${sourceDir}${metaFile}" "${destineDir}${logDateTime}-${metaFile}"
 }
