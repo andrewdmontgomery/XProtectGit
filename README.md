@@ -3,14 +3,14 @@ XProtectWatch
 
 XProtectWatch
 -------------
-This a tool to copy the XProtect.plist file whenever it changes via a User LaunchAgents.  This is not a managment system for XProtect.
+This a tool to copy the XProtect.plist file whenever it changes via a User LaunchAgents.  This is not a management system for XProtect.
 
 Copy the files as needed:
 
 *	/usr/local/bin/watchProtect.sh
 *	~/Library/LaunchAgents/com.stonyrivertech.XProtect.plist
 
-Be sure to chmod +x /usr/local/bin/watchProtect.sh so it's an executable script and that the plist permisions are ```rw-r--r--  1 username  staff```
+Be sure to chmod +x /usr/local/bin/watchProtect.sh so it's an executable script and that the plist permissions are ```rw-r--r--  1 username  staff```
 
 Once the files are copied to your computer in the correct locations you can load the LaunchDaemon via:
 
@@ -18,13 +18,13 @@ Once the files are copied to your computer in the correct locations you can load
 
 Debug
 -----
-You can enable debug mode by changing the value of the following loke on watchProtect.sh
+You can enable debug mode by changing the value of the following line on watchProtect.sh
 ```debug_log="disabled"							#	Change to "enable" to start debug logs```
 
 RollBack
 --------
 ### rollBack.sh ###
-THIS IS A HACK SCRIPT!  I just created this to help me test terminal-notifier to force a new update by copping the old data and removing some archives.  Not a true managment solution.
+THIS IS A HACK SCRIPT!  I just created this to help me test terminal-notifier to force a new update by copping the old data and removing some archives.  Not a true management solution.
 
 terminal-notifier
 -----------------
